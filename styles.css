@@ -118,14 +118,16 @@ header {
 }
 
 .phone-mockup-image {
-    max-width: 300px;
-    max-height: 600px;
-    width: 300px;
-    height: auto;
+    max-width: 300px !important;
+    max-height: 600px !important;
+    width: 300px !important;
+    height: auto !important;
     border-radius: 30px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     object-fit: contain;
     display: block;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 .phone-mockup {
