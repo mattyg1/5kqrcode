@@ -120,10 +120,12 @@ header {
 .phone-mockup-image {
     max-width: 300px;
     max-height: 600px;
-    width: auto;
+    width: 300px;
     height: auto;
     border-radius: 30px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    object-fit: contain;
+    display: block;
 }
 
 .phone-mockup {
